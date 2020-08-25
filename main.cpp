@@ -2,7 +2,9 @@
 #include <fstream>
 using namespace std;
 
+//DEFINO N PARA UTILIZARLO EN EL ARREGLO
 const int N = 100;
+
 
 int main() 
 {
@@ -10,12 +12,15 @@ int main()
    int a[N];
    int aux,n,i,AUX1;
    char r;
+
+   //ABRO EL ARCHIVO
   ofstream datos;
   string nombreArchivo;
   cout<<"INGRESA EL NOMBRE DEL ARCHIVO: ";
   cin.ignore();
   getline(cin,nombreArchivo);
   datos.open(nombreArchivo.c_str(),ios::app);
+  
 do
   {
   cout<<"Ingresa el tamaño del arreglo: ";
@@ -61,6 +66,9 @@ do
   cin>>r;
   cin.ignore();
   }while(r=='s');
+
+  //CIERRO ARCHIVO
   datos.close();
+
     return 0;
 }
