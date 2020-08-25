@@ -34,7 +34,7 @@ do
     datos<<"["<<a[i]<<"]";
   }
 
-  cout<<"La suma es: "<<AUX1<<endl;
+  //cout<<"La suma es: "<<AUX1<<endl;
   datos<<"\nLa suma es: "<<AUX1<<endl;
   for (int i=0; i<n; i++)
     {  
@@ -52,11 +52,11 @@ do
         }
         
     }
-    cout<<"Los valores ordenados son: ";
+    //cout<<"Los valores ordenados son: ";
     datos<<"Los valores ordenados son: ";
     for (int i=0; i<n; i++)
     {
-      cout<<"["<<a[i]<<"]";
+      //cout<<"["<<a[i]<<"]";
       datos<<"["<<a[i]<<"]";
     }
   datos<<endl;
