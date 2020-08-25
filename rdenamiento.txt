@@ -1,0 +1,4 @@
+El arreglo original es: [3][4][8][2][1]
+La suma es: 18
+Los valores ordenados son: [1][2][3][4][8]
+Los elementos totales son: 5
